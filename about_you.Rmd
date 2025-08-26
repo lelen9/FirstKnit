@@ -1,12 +1,18 @@
 ---
 title: "First Knit"
 author: "lele Nicholson"
-output: 
+date: "`r Sys.Date()`"
+output:
+  word_document:
+    toc: true
+    toc_depth: '5'
   html_document:
     number_sections: true
     toc: true
     toc_depth: 5
-date: "`r Sys.Date()`"   
+  pdf_document:
+    toc: true
+    toc_depth: '5'
 ---
 
 # A Little Survey
